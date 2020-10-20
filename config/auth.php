@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'web',
+        'guard' => 'api',
         'passwords' => 'users',
     ],
 
@@ -71,9 +71,9 @@ return [
             'model' => App\Models\User::class,
         ],
 
-        // 'users' => [
+        // 'admin' => [
         //     'driver' => 'database',
-        //     'table' => 'users',
+        //     'table' => 'admins',
         // ],
     ],
 
