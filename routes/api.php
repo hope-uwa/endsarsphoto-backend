@@ -20,4 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/login/redirect', [LoginController::class, 'redirectToProvider']);
-Route::get('/login/callback', [LoginController::class, 'handleProviderCallback']);
+Route::post('/login/callback', [LoginController::class, 'handleProviderCallback']);
