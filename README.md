@@ -10,6 +10,22 @@ API Implementation of pictures from #ENDSARS protest
 - Postgres
 - Cloudinary
 
+## Routes
+```
+GET /api/post
+GET /api/post/{id}
+POST /api/post
+PUT /api/post/{id}
+DELETE /api/post/{id}
+
+Pictures
+
+GET /api/post/{postId}/picture
+GET /api/post/{postId}/picture/{pictureId}
+POST /post/{postId}/picture
+DELETE /api/post/{postId}/picture/{pictureId}
+```
+
 ## Contributing
 
 Feel free to raise an issues ticket for any bugs, or new features. 
