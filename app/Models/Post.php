@@ -16,7 +16,7 @@ class Post extends Model
      */
     protected $guarded = [];
 
-    protected $with = ['state'];
+    protected $with = ['state', 'picture'];
 
     /**
      * Relationship with Picture

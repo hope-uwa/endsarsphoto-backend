@@ -180,6 +180,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\PostServiceProvider::class,
         App\Providers\PictureServiceProvider::class,
+        App\Providers\SearchServiceProvider::class,
 
     ],
 

@@ -18,6 +18,9 @@ POST /api/post
 PUT /api/post/{id}
 DELETE /api/post/{id}
 
+GET /api/search?description=texts&&note=texts&&state=2&&most_recent=desc|asc
+GET /api/states
+
 Pictures
 
 GET /api/post/{postId}/picture
